@@ -1,4 +1,4 @@
-import 'package:demo_app/screen/animation_screen.dart';
+import 'package:demo_app/screen/cupertino_picker.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: AnimationScreen(),
+      home: CupertinoPicker(),
     );
   }
 }
